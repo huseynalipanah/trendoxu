@@ -1,0 +1,126 @@
+
+.card {
+  background-color: #fff;
+  border-radius: 5px;
+  width: 390px;
+  height: 500px;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.img img {
+  width: 390px;
+  height: 230px;
+  border-radius: 5px;
+  position: absolute;
+  object-fit: cover;
+}
+.basliq {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bold;
+  color: #13317f;
+  position: absolute;
+  font-size: 25px;
+  top: 250px;
+  left: 20px;
+}
+.lbg{
+    border: 2px solid #ddd;
+    background-color: #f2f2f2;
+    width: 130px;
+    height: 50px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    border-radius: 5px;
+}
+.lbg:hover{
+    border: 2px solid #ddd;
+    background-color: #38f738;
+    width: 130px;
+    height: 50px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    border-radius: 5px;
+}
+.dlbg{
+    border: 2px solid #ddd;
+    background-color: #f2f2f2;
+    width: 125px;
+    height: 50px;
+    position: absolute;
+    bottom: 0px;
+    left: 131px;
+    border-radius: 5px;
+}
+.dlbg:hover{
+    border: 2px solid #ddd;
+    background-color: #f82424;
+    width: 125px;
+    height: 50px;
+    position: absolute;
+    bottom: 0px;
+    left: 131px;
+    border-radius: 5px;
+}
+.eyebg{
+    border: 2px solid #ddd;
+    background-color: #f2f2f2;
+    width: 130px;
+    height: 50px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    border-radius: 5px;
+}
+
+.dislike{
+    position: absolute;
+    font-size: 20px;
+    bottom: -15px;
+    left: 30px;
+    color: #aaa;
+    width: 100%;
+    height: 100%;
+    
+}
+.dislike:hover{
+    position: absolute;
+    font-size: 20px;
+    bottom: -15px;
+    left: 30px;
+    color: #ffffff;
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+.like{
+    position: absolute;
+    font-size: 20px;
+    bottom: -15px;
+    left: 30px;
+    color: #aaa;
+    width: 100%;
+    height: 100%;
+}
+.like:hover{
+    position: absolute;
+    font-size: 20px;
+    bottom: -15px;
+    left: 30px;
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+
+
+.eye{
+    position: absolute;
+    font-size: 20px;
+    bottom: 15px;
+    left: 30px;
+    color: #aaa;
+}
